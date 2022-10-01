@@ -1,0 +1,14 @@
+import os
+os.system("cls")
+
+inputs = [1, 2, 3]
+weights = [0.2, 0.8, -0.5]
+bias = 2
+
+# output = inputs * weights + bias
+output = 0
+for i in range(len(inputs)):
+    output += inputs[i] * weights[i]
+output += bias
+
+print(output)
