@@ -88,3 +88,5 @@ print("Accuracy: ", accuracy)
 
 plt.scatter(X[:, 0], X[:, 1], c=y, s = 40, cmap='brg')
 plt.show()
+
+# PAGE 211
